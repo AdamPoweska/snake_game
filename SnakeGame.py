@@ -106,10 +106,6 @@ while True:
         foodPos = [random.randrange(1, 72) * 10, random.randrange(1, 46) * 10]
     foodSpawn = True
 
-    #imp = pygame.image.load("C:\\Users\\Adam\\Desktop\\coding\\Python\\inne\\leon.jpg").convert()
-    #rectangular = imp.get_rect()
-
-
     playsurface.fill(white)
     for pos in snakeBody:
         pygame.draw.rect(playsurface, green, pygame.Rect(pos[0],pos[1],10,10)) #snake body grafics
