@@ -51,6 +51,7 @@ def gameOver():
     pygame.quit() #game exit
     sys.exit() #console exit
 
+
 def showScore(choice = 1):
     sFont = pygame.font.SysFont('monaco', 24)
     Ssurf = sFont.render('Score: ' + str(score), True, black)
@@ -60,7 +61,6 @@ def showScore(choice = 1):
     else:
         Srect.midtop = (360, 120)
     playsurface.blit(Ssurf, Srect)
-
 
 
 # Game logic
